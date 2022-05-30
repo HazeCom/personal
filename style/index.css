@@ -1,0 +1,74 @@
+*{
+      margin: 0%;
+      padding: 0%;
+      font-family: arial;
+}
+
+#navbar{
+      display: flex;
+      justify-content: right;
+      background-color: black;
+      color: white;
+}
+
+#navbar p{
+      cursor: pointer;
+      font-size: 30px;
+      font-weight: 600;
+      padding: 10px;
+      padding-left: 30px;
+}
+
+#bucket{
+      text-decoration: none;
+      color: white;
+      position: relative;
+      padding-right: 30px;
+}
+
+#bucket:hover{
+      text-decoration: underline;
+}
+
+#navbar div{
+      position: absolute;
+      border-radius: 18px;
+      font-size: 25px;
+      font-weight: 600;
+      right: 9px;
+}
+
+#menu{
+      text-align: center;
+      width: 95%;
+      margin: auto;
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap: 20px;
+}
+
+#menu div{
+      cursor: pointer;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+#menu div p{
+      margin-top: 20px;
+      font-size: 20px;
+      font-weight: 600;
+}
+
+#menu h2{
+      margin-top: 10px;
+      padding-left: 5px;
+}
+#add_to_bucket{
+      cursor: pointer;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      padding: 5px 10px;
+      color: white;
+      background-color: black;
+      font-weight: 600;
+}
